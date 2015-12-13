@@ -1,0 +1,8 @@
+//Scripts.dump();
+
+Scripts.execStorage("test_variant.tjs");
+Scripts.execStorage("test_misc.tjs");
+Scripts.execStorage("test_class.tjs");
+Scripts.execStorage("test_function.tjs");
+Scripts.execStorage("test_string.tjs");
+Scripts.execStorage("test_with.tjs");
