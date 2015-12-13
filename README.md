@@ -1,21 +1,21 @@
-# �H�X�a
-�H�X�a�́A�g���g��2��Java�Ŏ��������݊��G���W���ł��B
+# 羽々斬
+羽々斬は、吉里吉里2をJavaで実装した互換エンジンです。
 
 
-## �\��
+## 構成
 ### core
-���ʕ����ł��B
+共通部分です。
 
 ### android
-Android �ŗL�����ł��B
+Android 固有部分です。
 
 ### desktop
-desktop (Windows/Linux/MacOSX)�ŗL�����ł��B
+desktop (Windows/Linux/MacOSX)固有部分です。
 
 ### JOrbis
-Ogg vorbis �Đ��̂��߂̃��C�u�����ł��B
-�����������邽�߂� VorbisFile2.java ���ǉ�����Ă��܂��B
-jar �����ēǂݍ��܂��܂��B
-LGPL �ł����Adesktop �ł̗��p�ł���΁Ajar �͓��I�ɓǂݍ��܂�邽�߁A���̃��C�u�����̂� LGPL �ƂȂ�܂��B
-android �ł͎g�p���܂���B
+Ogg vorbis 再生のためのライブラリです。
+扱いやすくするために VorbisFile2.java が追加されています。
+jar 化して読み込ませます。
+LGPL ですが、desktop での利用であれば、jar は動的に読み込まれるため、このライブラリのみ LGPL となります。
+android では使用しません。
 
